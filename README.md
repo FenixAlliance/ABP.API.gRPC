@@ -1,4 +1,4 @@
-﻿# Alliance Business Suite
+# Alliance Business Suite
 ![Alliance Business Suite](https://absuite.net/wp-content/uploads/sites/13/2020/03/Logo.Blue_.NoBG_.h40.png "Alliance Business Suite")
 <p>
   <img alt="Version" src="https://img.shields.io/badge/Version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -474,9 +474,3 @@ The Alliance Passport Services engine is built on top of a highly compliant serv
 We think that it's also worth pointing out that we DO NOT store any identity information into our databases; instead, that data is always encrypted and sent to the same systems that governments and enterprises worldwide are using to keep your data safe, and then we access that data by using industry-standard protocols so that you can rest assured that your sensitive information is protected through various security controls in addition to multi-factor authentication.
 
 To learn more about our privacy policy, please visit: https://fenixalliance.com.co/legal/policies/privacypolicy 
-
-
-
-
-
-
