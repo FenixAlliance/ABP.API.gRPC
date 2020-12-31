@@ -13,7 +13,7 @@
   </a>
 </p>
 
-The Alliance Business Platform is a Modular API Framework. It leverages .NET 5.0 with the best of Blazor, Razor Pages, MVC, GRPC, GraphQl, Bot Framework and the tremendous power of the Alliance Business Model Schema (AMB)). The Alliance Business Platform is an open source and cross-platform framework for integrating next-generation functionalities into your applications. It allows you to build spectacular single-page apps using .NET and C# with or without of JavaScript. ABP apps can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard requests through the GrPC, HTTP and GraphQL Endpoints. B
+The Alliance Business Platform is a Modular API Framework. It leverages .NET 5.0 with the best of Blazor, Razor Pages, MVC, GRPC, GraphQl, Bot Framework and the tremendous power of the Alliance Business Model Schema (AMB). The Alliance Business Platform is an open source and cross-platform framework for integrating next-generation functionalities into your applications. It allows you to build spectacular single-page apps using .NET and C# with or without of JavaScript. ABP apps can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard requests through the various GrPC, HTTP and GraphQL Endpoints. B
 
 Anyone can build on and extend The Alliance Business Platform to capture additional business-specific scenarios.
 
@@ -54,14 +54,6 @@ dotnet test
 - Github: [@fenixalliance](https://github.com/fenixalliance)
 - LinkedIn: <a href="https://www.linkedin.com/company/FenixAlliance/" target="_blank">Fenix Alliance on LinkedIn</a>
 
-
-# Versioning
-
-Maintaining forward and backward compatibility is a key goal of the ABS. Therefore, the ABS uses only additive versioning, which means any revision of the ABM following the "1.0" release will not:
-
-* Introduce new mandatory attributes on previously published entities, or change an optional attribute to be mandatory
-* Rename previously published attributes or entities
-* Remove previously published attributes
 
 # Legal Notices
 
