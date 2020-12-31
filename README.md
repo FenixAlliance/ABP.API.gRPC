@@ -18,7 +18,7 @@ The Alliance Business Suite is a set of intelligent, extensible, multi-tenant bu
 
 The Alliance Business Suite gives users a Full-Stack, Modular Application Framework built on top of the [Alliance Business Platform](https://absuite.net). 
 
-Both client and server code is written in C#, allowing users to extend the product with their own code through Module libraries. It leverages Blazor, SignalR, an open source and cross-platform web UI framework for building single-page apps using .NET and C# with or without the use of JavaScript.
+Both client and server code is written in C#, allowing users to extend the product with their own code through Module libraries. It builds upon next-generation technologies such as Blazor, SignalR, Razor Pages, and MVC through ASP.NET Core, an open-source and cross-platform web UI framework for building web apps using .NET and C# with or without the use of JavaScript.
 
  ABS Apps are composed of reusable web UI components implemented using C#, HTML, and CSS. 
 
@@ -101,7 +101,7 @@ dotnet build --configuration Release
 
 #### Usage
 
-Add the nuget package
+Add the NuGet package
 
 ```sh
 dotnet add package FenixAlliance.ABS.Portal.Hub --version 1.0.0
@@ -161,7 +161,7 @@ namespace FenixAlliance.ABSP
   <img alt="GitHub Workflow Status" src="https://github.com/fenixalliance/ACL.Configuration/workflows/.NET/badge.svg">
 </p>
 
-The Alliance Business Model is is a declarative specification and definition of standard entities entities that represent commonly used concepts and activities across business and productivity applications, and is being extended to observational and analytical data as well. ABM provides well-defined, modular, and extensible business entities such as Account, Business Unit, Case, Contact, Lead, Opportunity, and Items (Products/Services), as well as interactions with vendors, workers, and customers, such as activities and service level agreements. that serve as the dynamic data layer for the entire Alliance Business Suite.
+The Alliance Business Model is a declarative specification and definition of standard entities that represent commonly used concepts and activities across business and productivity applications and is being extended to observational and analytical data as well. ABM provides well-defined, modular, and extensible business entities such as Account, Business Unit, Case, Contact, Lead, Opportunity, and Items (Products/Services), as well as interactions with vendors, workers, and customers, such as activities and service level agreements. that serve as the dynamic data layer for the entire Alliance Business Suite.
 
 Anyone can build on and extend ABM definitions to capture additional business-specific scenarios.
 
@@ -181,9 +181,9 @@ Anyone can build on and extend ABM definitions to capture additional business-sp
   <img alt="GitHub Workflow Status" src="https://github.com/fenixalliance/ACL.Configuration/workflows/.NET/badge.svg">
 </p>
 
-The Alliance Business Platform is a Modular API Framework. It leverages .NET 5.0 with the best of REST, SignalR, GraphQl y gRPCto transact with the Alliance Business Model Schema (AMB). The Alliance Business Platform is an open-source and cross-platform framework for integrating next-generation functionalities into your applications. It allows you to build spectacular single-page apps using .NET and C# with or without of JavaScript. ABP apps can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard requests through the various GrPC, HTTP, and GraphQL Endpoints. 
+The Alliance Business Platform is a Modular API Framework. It leverages .NET 5.0 with the best of REST, SignalR, GraphQl y gRPCto transact with the Alliance Business Model Schema (AMB). The Alliance Business Platform is an open-source and cross-platform framework for integrating next-generation functionalities into your applications. It allows you to build spectacular single-page apps using .NET and C# with or without JavaScript. ABP apps can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard requests through the various GrPC, HTTP, and GraphQL Endpoints. 
 
-Anyone can build on and extend The Alliance Business Platform trough ASP.NET + Angular / React (And pretty much any Framework), to capture additional business-specific scenarios.
+Anyone can build on and extend The Alliance Business Platform through ASP.NET + Angular / React (And pretty much any Framework), to capture additional business-specific scenarios.
 
 
 ## Alliance Business Portal (ABS Portal) 
@@ -200,13 +200,13 @@ Anyone can build on and extend The Alliance Business Platform trough ASP.NET + A
   <img alt="GitHub Workflow Status" src="https://github.com/fenixalliance/ACL.Configuration/workflows/.NET/badge.svg">
 </p>
 
-The Alliance Business Portal is a Content Management System built on top of the Alliance Business Platform. It leverages .NET 5.0 with the best of Blazor, Razor Pages, MVC, REST, GRPC, GraphQl and the tremendous power of the Alliance Business Model Schema (AMB). The Alliance Business Portal is an open source and cross-platform framework for integrating next-generation functionalities into your applications. 
+The Alliance Business Portal is a Content Management System built on top of the Alliance Business Platform. It leverages .NET 5.0 with the best of Blazor, Razor Pages, MVC, REST, GRPC, GraphQl, and the tremendous power of the Alliance Business Model Schema (AMB). The Alliance Business Portal is an open-source and cross-platform framework for integrating next-generation functionalities into your applications. 
 
-It allows you to build ABP Single Page apps that can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard requests through the various GrPC, HTTP, and GraphQL Endpoints.  ABP apps can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard GrPC, HTTP and GraphQL requests through the various Alliance Business Platform Endpoints.
+It allows you to build ABP Single Page apps that can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard requests through the various GrPC, HTTP, and GraphQL Endpoints.  ABP apps can connect and transact to the data layer (The Alliance Business Modal Schema) using any language through standard GrPC, HTTP, and GraphQL request through the various Alliance Business Platform Endpoints.
 
-With ABS Portals, users can create external-facing websites that allow employees, customers, partners and others outside their organizations to sign in with a wide variety of identities, create and view data in the Alliance Business Model, or browse content anonymously. 
+With ABS Portals, users can create external-facing websites that allow employees, customers, partners, and others outside their organizations to sign in with a wide variety of identities, create and view data in the Alliance Business Model, or browse content anonymously. 
 
-These capabilities feature a revamped end-to-end experience for makers to quickly create a website and customize it with pages, layout, and content. Developers can reuse page designs through templates, add forms and views to display key data from the Alliance Business Model, and publish to users.
+These capabilities feature a revamped end-to-end experience for makers to quickly create a website and customize it with pages, layout, and content. Developers can reuse page designs through templates, add forms and views to display key data from the Alliance Business Model and publish to users.
 
 Anyone can build on and extend the Alliance Business Portal to capture additional business-specific scenarios.
 
@@ -225,7 +225,7 @@ Anyone can build on and extend the Alliance Business Portal to capture additiona
   <img alt="GitHub Workflow Status" src="https://github.com/fenixalliance/ACL.Configuration/workflows/.NET/badge.svg">
 </p>
 
-The Alliance Business Studio is the Graphical Administration Engine for the Alliance Business Suite. Is allows users to manage their implementations, transact data trough the Alliance Business Platform, generate and consume views, reports, customize and extend the system, and much more.
+The Alliance Business Studio is the Graphical Administration Engine for the Alliance Business Suite. Is allows users to manage their implementations, transact data through the Alliance Business Platform, generate and consume views, reports, customize and extend the system, and much more.
 
 Anyone can build on and extend The Alliance Business Studio to capture additional business-specific scenarios.
 
@@ -237,7 +237,7 @@ Anyone can build on and extend The Alliance Business Studio to capture additiona
    
 - Install the latest edition (v16.8 or higher) of [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) (Community, Professional, or Enterprise Editions) with the **ASP.NET and web development** workload enabled. Alliance Business Suite works with ALL editions of Visual Studio from Community to Enterprise. If you do not have a SQL Server installation available already and you wish to use LocalDB for development, you must also install the **.NET desktop development workload**.  
 
-- Download a release or Clone the ABS.Portal repository to your local system using Git. Open the **FenixAlliance.ABS.Portal.sln** solution file and Build the solution. Make sure you specify FenixAlliance.ABS.Portal as the Startup Project and then Run the application.
+- Download a release or Clone the ABS. Portal repository to your local system using Git. Open the **FenixAlliance.ABS.Portal.sln** solution file and Build the solution. Make sure you specify FenixAlliance.ABS.Portal as the Startup Project and then Run the application.
 
 
 **Installing an official release:**
@@ -292,6 +292,7 @@ V.1.2.5 ( released in conjuntion with .NET 5 on Nov 11, 2020 )
 - [ ] Virtual Entity Data Providers
 - [ ] Virtual Entity Data Sources
 - [ ] Custom Controller Definitions
+- [ ] Portal Settings Manager UI
 - [ ] Custom Macro Definitions
 - [ ] Custom Setting Definitions
 - [ ] Custom Portal Profile Definitions
@@ -371,7 +372,7 @@ Constant Consideration
 # Example Screenshots
 
 ## APS IAM Social Providers:
-Alliance Passport Services provides Internal, B2B and B2C identity as a service. It allows users to use their preferred social, enterprise, or local account identities to get single sign-on access to the Alliance Business Suite.
+Alliance Passport Services provides Internal, B2B, and B2C identity as a service. It allows users to use their preferred social, enterprise, or local account identities to get single sign-on access to the Alliance Business Suite.
 
 Alliance Passport Services (APS) is Fenix Alliance's cloud-based identity and access management service, which helps your customers and employees to sign in and access resources in your deployment, such as apps on your tenant, portal instances, Infinity Comex Deployments, along with any cloud apps developed by your own organization.
 
@@ -379,7 +380,7 @@ Alliance Passport Services (APS) is Fenix Alliance's cloud-based identity and ac
 ![Alliance Passport Services](https://github.com/fenixalliance/abs.docs/blob/master/.attachments/image-a85a71aa-0553-47b3-bde4-0f2a7cb8b220.png?raw=true "Alliance Passport Services")
 
 ## ABS Extensions:
-The ABS is absolutely modular. Wether you need to add pages, products or posts with no code at all (using the ABS Web Designer), modify the style or layout, or add your own Types, Controllers, Pages, Views, Components or Tag Helpers
+The ABS is absolutely modular. Whether you need to add pages, products, or posts with no code at all (using the ABS Web Designer), modify the style or layout, or add your own Types, Controllers, Pages, Views, Components, or Tag Helpers
 
 ![ABS Extensions](https://github.com/fenixalliance/abs.docs/blob/master/.attachments/YLVYb8WhDf.gif?raw=true "ABS Extensions")
 
@@ -390,7 +391,7 @@ The ABS Commander Terminal is a Built-In functionality that allows users to exec
 
 ## ABS WOPI Connector:
 
-The ABS Workplace Module allows users to create, view and edit Office files with Office for the web, right from their ABS Instances. It also allows users to manage files for pretty much for every entity type.
+The ABS Workplace Module allows users to create, view, and edit Office files with Office for the web, right from their ABS Instances. It also allows users to manage files for pretty much every entity type.
 
 ![ABS WOPI Connector](https://github.com/fenixalliance/abs.docs/blob/master/.attachments/E9Or7BZKnX.gif?raw=true "ABS WOPI Connector")
 
