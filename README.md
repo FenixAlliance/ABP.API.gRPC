@@ -336,7 +336,6 @@ V.1.0.0 ( released in Dec 31, 2020 )
 - [x] JavaScript Lazy Loading
 - [x] Modular Architecture
 - [x] Multi-Currency Support
-- [x] Multi-Portal ( Monolith & Microservice nDistributed )
 - [x] Multi-Portal ( Monotlith & Microservice Distributed )
 - [x] Multi-Tenant ( Shared Database & Isolated Database )
 - [x] Notifications / Email Delivery
