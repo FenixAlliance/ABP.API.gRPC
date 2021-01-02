@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+    <ProjectReference Include="..\FenixAlliance.ABP.Nucleus\FenixAlliance.ABP.Nucleus.csproj" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.31.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Grpc.AspNetCore" Version="2.31.0" />
-    <PackageReference Include="FenixAlliance.APS.Core" Version="1.0.0" />
+    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
   </ItemGroup>
+
+
+  
 
 </Project>
