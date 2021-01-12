@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <LangVersion>latest</LangVersion>
     <Company>Fenix Alliance Inc.</Company>
     <Authors>Fenix Alliance Group</Authors>
@@ -10,7 +10,7 @@
     <RequireLicenseAcceptance>true</RequireLicenseAcceptance>
     <PackageProjectUrl>https://absuite.net</PackageProjectUrl>
     <PackageLicenseUrl>https://absuite.net/eula</PackageLicenseUrl>
-    <Copyright>ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© 2009 - 2021 Fenix Alliance Inc. All rights reserved.</Copyright>
+    <Copyright>ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© 2009 - 2021 Fenix Alliance Inc. All rights reserved.</Copyright>
     <PackageIconUrl>https://fenixalliance.com.co/images/FenixAlliance/AppIcon/apple-icon-120x120.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/FenixAlliance/ABM.Data</RepositoryUrl>
     <PackageTags>Alliance Business Suite, Fenix Alliance, ABS</PackageTags>
