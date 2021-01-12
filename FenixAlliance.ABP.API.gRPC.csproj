@@ -28,7 +28,4 @@
     <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
   </ItemGroup>
 
-
-  
-
 </Project>
