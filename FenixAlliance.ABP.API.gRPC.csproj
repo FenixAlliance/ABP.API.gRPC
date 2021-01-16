@@ -10,7 +10,7 @@
     <RequireLicenseAcceptance>true</RequireLicenseAcceptance>
     <PackageProjectUrl>https://absuite.net</PackageProjectUrl>
     <PackageLicenseUrl>https://absuite.net/eula</PackageLicenseUrl>
-    <Copyright>Â© 2009 - 2021 Fenix Alliance Inc. All rights reserved.</Copyright>
+    <Copyright>© 2009 - 2021 Fenix Alliance Inc. All rights reserved.</Copyright>
     <PackageIconUrl>https://fenixalliance.com.co/images/FenixAlliance/AppIcon/apple-icon-120x120.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/FenixAlliance/ABM.Data</RepositoryUrl>
     <PackageTags>Alliance Business Suite, Fenix Alliance, ABS</PackageTags>
