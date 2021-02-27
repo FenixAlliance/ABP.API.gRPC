@@ -5,7 +5,7 @@
     <Company>Fenix Alliance Inc.</Company>
     <Authors>Fenix Alliance Group</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <RequireLicenseAcceptance>true</RequireLicenseAcceptance>
     <PackageProjectUrl>https://absuite.net</PackageProjectUrl>

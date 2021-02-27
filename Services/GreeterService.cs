@@ -1,6 +1,6 @@
-using System.Threading.Tasks;
 using Grpc.Core;
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace FenixAlliance.ABP.API.gRPC.Services
 {
